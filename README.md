@@ -56,5 +56,7 @@ Tabs component. Holds a collection of tabs and in its template will make use of 
 ```
 
 **routerLinkActive**  will set the class `active` when the routerLink on that element becomes active
+
 **routerLink**  uses the Tab configuration to set the route that the element will activate, for example, `/one` or `/mycomponent`
+
 **router-outlet**  this is where Angular 2 will insert the component that will serve the activated route, according to app.routing.ts configuration  
